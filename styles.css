@@ -93,6 +93,30 @@ header .hometitle{
     color: aqua;
 }
 
+@media (max-width: 1200px) {
+    header {
+        height: 60vh; /* Decrease height for smaller screens */
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        height: 50vh; /* Further decrease height */
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 40vh; /* Further decrease height */
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 30vh; /* Further decrease height */
+    }
+}
+
 .searchJobs{
     width:60%;
     margin: auto;
